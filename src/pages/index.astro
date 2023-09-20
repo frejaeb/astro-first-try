@@ -1,0 +1,33 @@
+---
+import "../style/style.css";
+import Card from "../Card.astro";
+import Navigation from "../Navigation.astro";
+import Button from "./Button.astro";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+		<Navigation />
+		<h1>Astro</h1>
+		
+		<main>
+			<Button variant="primary" size="small">TEXT</Button>
+			<Button variant="secondary" size="medium">TEXT</Button>
+			<Button variant="secondary" size="large">TEXT</Button>
+<!-- 
+<Card header="Hej verden">
+	<img src="/skov.jpg" alt="skov">
+	<button>klik her</button>
+</Card> -->
+
+
+		</main>
+	</body>
+</html>
